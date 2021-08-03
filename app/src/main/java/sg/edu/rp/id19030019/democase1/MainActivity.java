@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 bigTextStyle.setBigContentTitle("Deals from top electronic retailers");
                 bigTextStyle.bigText("Mobile 50% off" + "\n Laptop 20% off" + "\n Tablet 22% off" + "\n Printer 30% off" + "\n Other 10% off");
 
+                //style
                 NotificationCompat.Builder builder = new NotificationCompat.Builder(MainActivity.this, "default");
                 builder.setContentTitle("Deals from top electronic retailers");
                 builder.setContentText("Excellent deals");
